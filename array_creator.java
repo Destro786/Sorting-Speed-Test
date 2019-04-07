@@ -7,13 +7,12 @@ public class array_creator extends array_range_acceptor
     static long quick[]=new long[1000000];	
     public static void generate()
     {
-        System.out.println("Creating Array For Bubble Sorting.....");
-        System.out.println("Creating Array For Selection Sorting.....");
-        System.out.println("Creating Array For Insertion Sorting.....");
-        System.out.println("Creating Array For Quick Sorting.....");
+        System.out.println("Created array for bubble sorting.");
+        System.out.println("Created array for selection sorting.");
+        System.out.println("Created array for insertion sorting.");
+        System.out.println("Created array for quick sorting.");
         for(int i=0;i<n;i++)
             bubble[i]=selection[i]=insertion[i]=quick[i]=(long)(Math.random()*n);
-        System.out.println("Creation of arrays successfull.");
-        System.out.println();
+        System.out.println("\n Creation of arrays successfull.\n");
     }
 }
