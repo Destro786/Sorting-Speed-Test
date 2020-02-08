@@ -1,3 +1,4 @@
+//THIS PIECE OF CODE CREATES  FOUR ARRAYS WITH SIMILAR CONTENTS FOR SORTING PURPOSE.
 import java.util.*;
 public class array_creator extends array_range_acceptor
 {  
